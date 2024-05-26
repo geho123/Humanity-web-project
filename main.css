@@ -860,6 +860,56 @@ h1{
     top: 20px;
     left: 20px;
 }
+#cycle-btn{
+    position: absolute;
+    top: 109%;
+    left: 40%;
+    display: flex;
+}
+.cycle-button1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #727272;
+    color: #26333a;
+    border-radius: 100%;
+    padding: 12px 18px;
+    margin-right: 240px;
+}
+.follower-flex{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 550px;
+}
+.follower {
+    margin: 0 40px;
+}
+.follower h1{
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 4rem;
+}
+.follower p{
+   margin: 0;
+   text-align: center;
+   color: #7f8181;
+}
+.hr{
+    color: #ecf1f0;
+    position: relative;
+    top:330px;
+}
+.brand-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 770px;
+}
+.brand-img img{
+    width: 100px;
+    height: 99-x;
+    margin-right: 100px;
+}
 
 
 /* end of testimonial section */
