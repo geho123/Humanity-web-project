@@ -482,10 +482,10 @@ h1{
     margin: 0 1rem;
     
 }
-.cause-img{
+.cause-img img{
     width: 100%;
     height: 40vh;
-    background-image: url('image/heor2.jpg');
+    /* background-image: url('image/heor2.jpg'); */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -738,22 +738,22 @@ h1{
     background-color: #da5353;
 }
 .el2{
-    background-image: url('image/heor2.jpg');
+    background-image: url('image/we-1.jpg');
     background-position: center;
     background-size: cover;
 }
 .el3{
-    background-image: url('image/hero.jpg');
+    background-image: url('image/we-2.jpg');
     background-position: center;
     background-size: cover;
 }
 .el4{
-    background-image: url('image/heor2.jpg');
+    background-image: url('image/we-3.jpg');
     background-position: center;
     background-size: cover;
 }
 .el5{
-    background-image: url('image/hero.jpg');
+    background-image: url('image/we-4.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -782,7 +782,7 @@ h1{
     color: #fff;
 }
 .el7{
-    background-image: url('image/heor2.jpg');
+    background-image: url('image/we-5.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -796,7 +796,7 @@ h1{
     position: relative;
     top: 45vh;
     left: 0;
-    margin-bottom: 90px;
+   
 }
 .testimonial-center  {
     width: 60%;
@@ -882,7 +882,7 @@ h1{
     top: 550px;
 }
 .follower {
-    margin: 0 40px;
+    margin: 0 20px;
 }
 .follower h1{
     font-family: "Frank Ruhl Libre", serif;
@@ -895,7 +895,7 @@ h1{
 }
 .hr{
     color: #ecf1f0;
-    position: relative;
+    position: relative; 
     top:330px;
 }
 .brand-flex{
@@ -908,8 +908,125 @@ h1{
 .brand-img img{
     width: 100px;
     height: 99-x;
-    margin-right: 100px;
+    margin-right: 70px;
 }
-
-
 /* end of testimonial section */
+
+/* start of team section */
+.team{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 90px;
+    background-color: #f1eeec;
+    position: relative;
+    top: 120vh;
+    left: 0;
+}
+.team-header{
+    padding-top: 8rem;
+    text-align: center;
+}
+.team-flex-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+.team-card{
+    width: 60%;
+    height: 50vh;
+    /* background-color: #77D7D3; */
+    margin: 1.5rem 0 0 0.8rem;
+}
+.team-card img{
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+.team-card h3{
+    margin: 0;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 1rem;
+    text-align: center;
+}
+.team-icons{
+    text-align: center;
+}
+.team-social-icon{
+    padding: 0 0.3rem;
+    text-align: center;
+}
+#team-card-cta{
+    background-color: #77D7D3;
+}
+.cycle-icon{
+    background-color: #2E4049;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 2.5rem 4rem 0 4rem;
+    text-align: center;
+    /* padding: 1rem 1.3rem; */
+}
+.cycle-icon img{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+
+}
+#team-h3{
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}
+.team-card p{
+    margin: 0;
+    font-family: "poppins";
+    font-size: 0.9rem;
+    text-align: center;
+}
+.team-button {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.team-button a{
+    border-radius: 50px;
+    padding: 18px 35px;
+    border: none;
+    background-color: #2E4049;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.team-button a:hover{
+    background-color: #26333a;
+}
+#team-button{
+    margin: 1rem 0.8rem 0 0.8rem;
+}
+#team-button a{
+    background-color: #2E4049;
+    color: #fff;
+    margin: 0;
+}
+/* end of team section */
+
+/* start of event section */
+.event{
+    width: 100%;
+    margin-bottom: 90px;
+    position: relative;
+    top: 643px;
+    left: 0;
+}
+.event-container{
+    width: 60%;
+    margin: auto;
+}
+#event{
+    padding-top: 15rem;
+}
+/* end of event section */
