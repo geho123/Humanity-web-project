@@ -1016,78 +1016,87 @@ h1 {
 #event {
   padding-top: 15rem;
 }
+
+.event-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event-left{
+    width: 50%;
+}
+.event-left img{
+    width: 100%;
+    height: 200px;
+}
+.p-flex{
+    display: flex;
+    align-items: center;
+    
+}
+.p-flex p{
+    margin: 0;
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: #7f8181;
+}
+.p-left{
+    padding-right: 1.5rem;
+}
+.p-left span{
+    color: #000;
+    
+}
+.p-right i{
+    color: #ff6d6d;
+    padding-right: 0.4rem;
+}
+.p-right span{
+    color: #000;
+}
+.event-hr{
+    color: #ecf1f0;
+    margin: 1rem 0;
+}
+.event-h3{
+    margin: 0;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 1.3rem;
+}
+.event-p{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: #7f8181;
+    padding-bottom: 1rem;
+}
+.location {
+    background-color: #ecf1f0;
+    padding: 1rem 1rem;
+    font-family: "poppins";
+}
+.location i{
+    color: #ff6d6d;
+    padding-right: 0.5rem;
+}
+.event-right{
+    width: 50%;
+    margin-left: 2rem;
+}
+.event-date{
+    width: 85px;
+    height: 100px;
+    background-color: #26333a;
+    text-align: center;
+}
+.date{
+    color: #fff;
+    font-family: "poppins";
+    font-size: 2.3rem;
+    padding: 0;
+    margin: 0;
+}
+.month{
+    font-size: 1.3rem;
+}
+
 /* end of event section */
-
-/* Start of CTA */
-.cta-container {
-  position: static;
-  display: flex;
-  position: relative;
-  top: 643px;
-  left: 0;
-  width: 100%;
-}
-
-.cta-left {
-  background-color: #ff6d6d;
-  width: 100%;
-  padding: 3rem 0;
-}
-
-.cta-left div {
-  width: 80%;
-  margin: auto;
-}
-
-.cta-left h4 {
-  font-size: xx-large;
-}
-
-.cta-left p {
-  font-size: 1rem;
-  color: white;
-  margin: 1rem 0;
-}
-
-.cta-heading {
-  color: white;
-  font-weight: normal;
-  font-size: x-large;
-  font-family: "Shantell Sans", cursive;
-}
-
-.cta-form {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.cta-input {
-  border: none;
-  padding: 1rem;
-  border-radius: 50px;
-  width: 100%;
-  margin-right: 1rem;
-}
-
-.cta-right {
-  background-color: #77d7d3;
-  width: 100%;
-  padding: 3rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cta-right h4 {
-  font-size: 2rem;
-  font-weight: normal;
-  margin: 1rem 0;
-}
-
-.cta-right div {
-  width: 80%;
-  margin: auto;
-}
-
-/* End of CTA */
