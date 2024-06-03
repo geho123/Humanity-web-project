@@ -1,0 +1,352 @@
+  
+.hero {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-image {
+    background-image: url("../image/contact-hero.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-heading {
+    width: 60%;
+    margin: auto;
+  }
+  .hero-position{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+  }
+  .hero-heading h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: "Shantell Sans", cursive;
+    margin: 0;
+  }
+  
+  .hero-heading h1 {
+    color: #ffffff;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin: 0;
+    padding-top: 2rem;
+  }
+
+.contactss-btn{
+  margin-top: 1.8rem;
+  margin-left: 2rem;
+}
+  .contactss-btn a {
+    border-radius: 50px;
+    padding: 18px 35px;
+    border: none;
+    background-color: #2e4049;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .contactss-btn a:hover {
+    background-color: #26333a;
+  }
+
+
+
+  /* Start Abbout us section */
+.about {
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: 100vh;
+  left: 0;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+.about-us {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.about-us__one {
+  width: 50%;
+  padding-left: 1rem;
+}
+h2 {
+  margin: 0;
+  color: #ff6d6d;
+  font-size: 1.5rem;
+  font-family: "Shantell Sans", cursive;
+  padding-bottom: 0.7rem;
+}
+h1 {
+  margin: 0;
+  color: #2e4049;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 2.5rem;
+  /* line-height: 1rem; */
+}
+.about-us__one p {
+  color: #7f8181;
+  line-height: 1rem;
+  font-size: 0.8rem;
+}
+.about-badge{
+  width: 80%;
+  background-color: #62f05d71;
+  padding: 1rem 1rem;
+  margin-top: 0.5rem;
+}
+.button-about {
+  padding: 1.8rem 0 2rem 0;
+}
+.button-about a {
+  border-radius: 50px;
+  padding: 18px 35px;
+  border: none;
+  background: #ff6d6d;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.button-about a:hover {
+  background-color: #da5353;
+}
+.about-us__two {
+  width: 50%;
+  height: 350px;
+  background-image: url('../image/causes.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.about-quote{
+  background-color: #2e4049;
+  padding: 2rem 3rem;
+  position: absolute;
+  top: 153vh;
+  left: 15%;
+  display: flex;
+}
+.about-quote p{
+  color: #fff;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 1.5rem;
+}
+.about-quote i{
+  color: #fff;
+  font-size: 4rem;
+  padding-right: 1rem;
+}
+
+
+
+.about-brand{
+  position: relative;
+  top: 100vh;
+  left: 0;
+  margin-bottom: 90px;
+}
+.brand{
+  width: 60%;
+  margin: auto;
+}
+.hr {
+  color: #ecf1f0;
+  width: 100%;
+  margin: 2rem 0;
+}
+.brand-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-img img {
+  width: 100px;
+  height: 99px;
+  margin-right: 70px;
+}
+/* End of about us section */
+
+.goal-mission{
+  position: relative;
+  top: 100vh;
+  left: 0;
+  margin-bottom: 90px;
+}
+.mission-center{
+  width: 60%;
+  margin: auto;
+}
+.mission-flex{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.mission-left{
+  width: 50%;
+  height: auto;
+  margin-right: 2rem;
+}
+.mission-left p{
+  color: #7f8181;
+  line-height: 1rem;
+  font-size: 0.8rem;
+}
+.mission-badge{
+  margin: 1rem 0;
+  display: flex;
+}
+
+.sm-badge{
+  background-color: #ecf1f0;
+  margin-top: 0.8rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 50px;
+  
+}
+.sm-badge i{
+  color: #ff6d6d;
+  padding-right: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.mission-right{
+  width: 50%;
+}
+.mission-right p{
+  color: #7f8181;
+  line-height: 1rem;
+  font-size: 0.8rem;
+}
+.mission-image{
+  background-image: url('../image/event1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+  margin-top: 1rem;
+}
+.mission-bb{
+  background-color: #77d7d3;
+  position: absolute;
+  top: 48vh;
+  left: 53%;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.mission-bb h1{
+  font-size: 3.8rem;
+}
+.mission-bb p{
+  color: #000;
+}
+
+
+/* start of team section */
+.team {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 90px;
+  background-color: #f1eeec;
+  position: relative;
+  top: 120vh;
+  left: 0;
+}
+.team-header {
+  padding-top: 8rem;
+  text-align: center;
+}
+.team-flex-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+}
+.team-card {
+  width: 60%;
+  height: 50vh;
+  /* background-color: #77D7D3; */
+  margin: 1.5rem 0 0 0.8rem;
+}
+.team-card img {
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+.team-card h3 {
+  margin: 0;
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.team-icons {
+  text-align: center;
+}
+.team-social-icon {
+  padding: 0 0.3rem;
+  text-align: center;
+}
+#team-card-cta {
+  background-color: #77d7d3;
+}
+.cycle-icon {
+  background-color: #2e4049;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin: 2.5rem 4rem 0 4rem;
+  text-align: center;
+  /* padding: 1rem 1.3rem; */
+}
+.cycle-icon img {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+#team-h3 {
+  padding: 0.3rem;
+  font-size: 1.5rem;
+}
+.team-card p {
+  margin: 0;
+  font-family: "poppins";
+  font-size: 0.9rem;
+  text-align: center;
+}
+.team-button {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.team-button a {
+  border-radius: 50px;
+  padding: 18px 35px;
+  border: none;
+  background-color: #2e4049;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.team-button a:hover {
+  background-color: #26333a;
+}
+#team-button {
+  margin: 1rem 0.8rem 0 0.8rem;
+}
+#team-button a {
+  background-color: #2e4049;
+  color: #fff;
+  margin: 0;
+}
+/* end of team section */

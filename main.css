@@ -1,132 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-/* Start main header one */
-.main-header {
-  width: 100%;
-  /* height: 16%; */
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #77d7d3;
-  cursor: pointer;
-  z-index: 5;
-  overflow: auto;
-}
-.wer {
-  width: 60%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.main-header__contact-items {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.main-header__contact-item {
-  padding-right: 1.4rem;
-  font-size: 0.9rem;
-}
-.main-header__contact-item i {
-  padding-right: 0.5rem;
-  font-size: 0.9rem;
-}
-.main-header__social {
-  background: #5bafab;
-  height: 50px;
-  padding: 0 1.5rem;
-  display: flex;
-  align-items: center;
-}
-.toggle-button__bar {
-  padding: 0 0.5rem;
-}
-.toggle-button__bar i {
-  font-size: 0.9rem;
-}
-/* End main header one */
-
-/* Start main header two */
-.main-header-two {
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  top: 3rem;
-  left: 0;
-  padding-top: 1rem;
-  /* margin-top: 3rem; */
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 5;
-}
-.main-header-two__wer {
-  width: 60%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.main-header-two__brand img {
-  height: 3.5rem;
-  vertical-align: middle;
-}
-.main-nav__items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
-.main-nav__item {
-  padding: 0 1rem;
-  align-self: center;
-}
-.main-nav__item a {
-  text-decoration: none;
-  color: #2e4049;
-  font-weight: 600;
-  font-size: 0.7rem;
-}
-.main-nav__item a:hover {
-  color: #5bafab;
-}
-.vertical-line {
-  border-right: 1px solid #ccc;
-}
-
-.main-nav__item-cta {
-  background: #ff6d6d;
-  border-radius: 50px;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-.main-nav__item-cta:hover {
-  background: #eb7676;
-}
-
-.main-nav__item-cta a {
-  text-decoration: none;
-  color: #ffff;
-  font-size: 0.8rem;
-}
-/* .main-nav__item-cta a:hover{
-    color: #2E4049;
-} */
-
-/* End main header two */
 .hero {
   margin-top: 130px;
   position: relative;
@@ -465,6 +337,7 @@ h1 {
 .causes-cards {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .causes-card {
   width: 40%;
@@ -895,7 +768,7 @@ h1 {
 }
 .brand-img img {
   width: 100px;
-  height: 99-x;
+  height: 60px;
   margin-right: 70px;
 }
 /* end of testimonial section */
@@ -1006,8 +879,9 @@ h1 {
   width: 100%;
   /* margin-bottom: 90px; */
   position: relative;
-  top: 643px;
+  top: 100vh;
   left: 0;
+  margin-bottom: 90px;
 }
 .event-container {
   width: 60%;
@@ -1019,7 +893,7 @@ h1 {
 
 .event-flex{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 .event-left{
@@ -1027,7 +901,7 @@ h1 {
 }
 .event-left img{
     width: 100%;
-    height: 200px;
+    height: 280px;
 }
 .p-flex{
     display: flex;
@@ -1081,22 +955,159 @@ h1 {
 .event-right{
     width: 50%;
     margin-left: 2rem;
+    
+}
+.event-right-flex{
+  display: flex;
 }
 .event-date{
-    width: 85px;
-    height: 100px;
+    width: 25%;
+    height: 16vh;
     background-color: #26333a;
     text-align: center;
 }
 .date{
     color: #fff;
-    font-family: "poppins";
-    font-size: 2.3rem;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 4rem;
+    line-height: 1;
+    padding-top: 1.5rem;
+    margin: 0;
+    text-align: center;
+}
+.event-date p{
+    color: #fff;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 1.5rem;
+    line-height: 1;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
-.month{
+.event-info{
+  margin-left: 1.5rem;
+}
+.event-info p{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: #7f8181;
+}
+.event-info span{
+  color: #ff6d6d;
+}
+.event-info-h3{
+    font-family: "Frank Ruhl Libre", serif;
     font-size: 1.3rem;
+    padding: 1.5rem 0;
+}
+.event-right-hr{
+  margin: 1rem 0;
+  color: #ecf1f0;
+}
+/* end of event section */
+
+/* start subbscribe section */
+.subscribe{
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  top: 100vh;
+  left: 0;
+}
+.subscribe-flex{
+  display: flex;
+}
+.subscribe-left{
+  width: 50%;
+  height: 40vh;
+  background-color: #ff6d6d;
+}
+.subscribe-left h2{
+  color: #fff;
+  padding: 3.9rem 0 0 6rem;
+}
+.subscribe-left h1{
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 0 0 6rem;
+}
+.subscribe-left p{
+    font-family: "poppins";
+    font-size: 0.8rem;
+    color: #fff;
+    padding: 0.2rem 0 0 6rem;
+}
+.subscribe-left .sub1{
+  background-color: #fff;
+  color: #7f8181;
+}
+.subscribe-left .sub2{
+  background-color: #2e4049;
+  color: #fff;
+  margin: 0;
+}
+.button-left{
+  margin-top: 1.8rem;
+  margin-left:6rem;
+}
+.button-left a{
+  border-radius: 50px;
+  margin-right: 1rem;
+  padding: 1.1rem 2.2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500; ;
 }
 
-/* end of event section */
+.subscribe-right{
+  width: 50%;
+  height: 40vh;
+}
+.subscribe-right{
+  background-image: url('image/we-5.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+}
+.subscribe-right::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(119, 215, 211, 0.9);
+}
+.subscribe-right h2{
+  color: #000;
+  padding: 3.9rem 0 0 6rem;
+}
+.subscribe-right h1{
+  color: #000;
+  font-size: 2rem;
+  padding: 1rem 0 0 6rem;
+}
+.subscribe-right .sub1{
+  background-color: #2e4049;
+  color: #fff;
+  margin: 0;
+}
+.button-right{
+  margin-top: 2.5rem;
+  margin-left: 6rem;
+}
+.button-right a{
+  border-radius: 50px;
+  margin-right: 1rem;
+  padding: 18px 35px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500; ;
+}
+/* end subbscribe section */
+
+
