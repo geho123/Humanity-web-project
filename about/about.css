@@ -3,7 +3,7 @@
   height: 100%;
 }
 .hero-image {
-  background-image: url("../image/contact-hero.jpg");
+  background-image: url("../image/abou-hero.jpg");
   background-size: cover;
   position: absolute;
   top: 0;
@@ -211,6 +211,19 @@ h1 {
   padding-right: 0.3rem;
   font-size: 1.2rem;
 }
+.sm-badge2 {
+  background-color: #ecf1f0;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 50px;
+}
+.sm-badge2 i {
+  color: rgb(255, 109, 109);
+  padding-right: 0.3rem;
+  font-size: 1.2rem;
+}
 
 .mission-right {
   width: 50%;
@@ -361,13 +374,6 @@ h1 {
   text-align: center;
   width: 40%;
   margin: auto;
-}
-
-.subscribe-section div h2,
-h1,
-p {
-  color: #fff;
-  font-weight: normal;
 }
 
 .subscribe-section div h2 {
